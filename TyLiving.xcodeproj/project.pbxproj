@@ -1,0 +1,815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2108ADAC250F104F009C0C96 /* ATAuthSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2108ADAB250F104F009C0C96 /* ATAuthSDK.framework */; };
+		2108ADAE250F1142009C0C96 /* ATAuthSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2108ADAD250F1142009C0C96 /* ATAuthSDK.bundle */; };
+		2108ADC0250F23D1009C0C96 /* TyBottomLineTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2108ADBF250F23D1009C0C96 /* TyBottomLineTextField.m */; };
+		2108ADC5250F4850009C0C96 /* TyBaseLoginHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2108ADC3250F484F009C0C96 /* TyBaseLoginHelper.m */; };
+		2108ADC925105C02009C0C96 /* TyLoginServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 2108ADC825105C02009C0C96 /* TyLoginServices.m */; };
+		2108ADCD2510684E009C0C96 /* NSObject+TyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2108ADCC2510684E009C0C96 /* NSObject+TyObject.m */; };
+		2108ADD225109649009C0C96 /* MBProgressHUD+NHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2108ADD125109649009C0C96 /* MBProgressHUD+NHAdd.m */; };
+		2108ADD72510971F009C0C96 /* TyRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2108ADD52510971E009C0C96 /* TyRefreshFooter.m */; };
+		2108ADD82510971F009C0C96 /* TyRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2108ADD62510971F009C0C96 /* TyRefreshHeader.m */; };
+		2108ADDC25109C29009C0C96 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2108ADDA25109C28009C0C96 /* RootViewController.m */; };
+		2108ADDF25109C52009C0C96 /* RootControllerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2108ADDD25109C52009C0C96 /* RootControllerModel.m */; };
+		2108ADE225109E01009C0C96 /* TyMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2108ADE125109E01009C0C96 /* TyMineViewController.m */; };
+		2108ADE525109E15009C0C96 /* TyMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2108ADE425109E15009C0C96 /* TyMessageViewController.m */; };
+		2108ADE825109E3B009C0C96 /* TyExpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2108ADE725109E3B009C0C96 /* TyExpViewController.m */; };
+		2108ADEF25109EB3009C0C96 /* TyHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2108ADEE25109EB3009C0C96 /* TyHomeViewController.m */; };
+		2108ADF22510DDAB009C0C96 /* TySharedServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 2108ADF12510DDAB009C0C96 /* TySharedServices.m */; };
+		2108ADF42511DE93009C0C96 /* aaa.json in Resources */ = {isa = PBXBuildFile; fileRef = 2108ADF32511DE93009C0C96 /* aaa.json */; };
+		215E115C2518D32500EE8DD0 /* UIColor+TyColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 215E115B2518D32500EE8DD0 /* UIColor+TyColor.m */; };
+		21CBB86A25087A69001F22FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CBB86925087A69001F22FD /* AppDelegate.m */; };
+		21CBB87325087A69001F22FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21CBB87125087A69001F22FD /* Main.storyboard */; };
+		21CBB87525087A6A001F22FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21CBB87425087A6A001F22FD /* Assets.xcassets */; };
+		21CBB87825087A6A001F22FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21CBB87625087A6A001F22FD /* LaunchScreen.storyboard */; };
+		21CBB87B25087A6A001F22FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CBB87A25087A6A001F22FD /* main.m */; };
+		21CBB888250884BD001F22FD /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CBB887250884BD001F22FD /* BaseViewController.m */; };
+		21CBB88B250885AA001F22FD /* BaseNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CBB88A250885AA001F22FD /* BaseNetWorking.m */; };
+		21CBB8932508B438001F22FD /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CBB8922508B438001F22FD /* LoginViewController.m */; };
+		21CBB8972508DA3A001F22FD /* TyPayServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CBB8962508DA3A001F22FD /* TyPayServices.m */; };
+		21CBB89A2508DCEC001F22FD /* APOrderInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CBB8992508DCEC001F22FD /* APOrderInfo.m */; };
+		21CBB89E2509CB6A001F22FD /* TyCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CBB89D2509CB6A001F22FD /* TyCountDownButton.m */; };
+		21CBB8A12509F9B1001F22FD /* CountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CBB8A02509F9B1001F22FD /* CountDown.m */; };
+		21CBB8A3250B5ADB001F22FD /* apple-app-site-association in Resources */ = {isa = PBXBuildFile; fileRef = 21CBB8A2250B5ADB001F22FD /* apple-app-site-association */; };
+		F3E72E65FDBCA61073D3E5ED /* libPods-TyLiving.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1237AE087BED45BC5D2C4CA3 /* libPods-TyLiving.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1237AE087BED45BC5D2C4CA3 /* libPods-TyLiving.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TyLiving.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2108ADAB250F104F009C0C96 /* ATAuthSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ATAuthSDK.framework; sourceTree = "<group>"; };
+		2108ADAD250F1142009C0C96 /* ATAuthSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ATAuthSDK.bundle; sourceTree = "<group>"; };
+		2108ADBE250F23D0009C0C96 /* TyBottomLineTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TyBottomLineTextField.h; sourceTree = "<group>"; };
+		2108ADBF250F23D1009C0C96 /* TyBottomLineTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TyBottomLineTextField.m; sourceTree = "<group>"; };
+		2108ADC1250F2499009C0C96 /* TyUrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TyUrl.h; sourceTree = "<group>"; };
+		2108ADC3250F484F009C0C96 /* TyBaseLoginHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TyBaseLoginHelper.m; sourceTree = "<group>"; };
+		2108ADC4250F484F009C0C96 /* TyBaseLoginHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TyBaseLoginHelper.h; sourceTree = "<group>"; };
+		2108ADC6250F5D83009C0C96 /* TyLiving.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TyLiving.entitlements; sourceTree = "<group>"; };
+		2108ADC725105C02009C0C96 /* TyLoginServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TyLoginServices.h; sourceTree = "<group>"; };
+		2108ADC825105C02009C0C96 /* TyLoginServices.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TyLoginServices.m; sourceTree = "<group>"; };
+		2108ADCB2510684E009C0C96 /* NSObject+TyObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+TyObject.h"; sourceTree = "<group>"; };
+		2108ADCC2510684E009C0C96 /* NSObject+TyObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TyObject.m"; sourceTree = "<group>"; };
+		2108ADCE25106991009C0C96 /* TyGlobalH.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TyGlobalH.h; sourceTree = "<group>"; };
+		2108ADCF25109648009C0C96 /* MBProgressHUD_NHExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD_NHExtend.h; sourceTree = "<group>"; };
+		2108ADD025109648009C0C96 /* MBProgressHUD+NHAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+NHAdd.h"; sourceTree = "<group>"; };
+		2108ADD125109649009C0C96 /* MBProgressHUD+NHAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+NHAdd.m"; sourceTree = "<group>"; };
+		2108ADD32510971D009C0C96 /* TyRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TyRefreshHeader.h; sourceTree = "<group>"; };
+		2108ADD42510971E009C0C96 /* TyRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TyRefreshFooter.h; sourceTree = "<group>"; };
+		2108ADD52510971E009C0C96 /* TyRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TyRefreshFooter.m; sourceTree = "<group>"; };
+		2108ADD62510971F009C0C96 /* TyRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TyRefreshHeader.m; sourceTree = "<group>"; };
+		2108ADDA25109C28009C0C96 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		2108ADDB25109C29009C0C96 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		2108ADDD25109C52009C0C96 /* RootControllerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootControllerModel.m; sourceTree = "<group>"; };
+		2108ADDE25109C52009C0C96 /* RootControllerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootControllerModel.h; sourceTree = "<group>"; };
+		2108ADE025109E01009C0C96 /* TyMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TyMineViewController.h; sourceTree = "<group>"; };
+		2108ADE125109E01009C0C96 /* TyMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TyMineViewController.m; sourceTree = "<group>"; };
+		2108ADE325109E15009C0C96 /* TyMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TyMessageViewController.h; sourceTree = "<group>"; };
+		2108ADE425109E15009C0C96 /* TyMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TyMessageViewController.m; sourceTree = "<group>"; };
+		2108ADE625109E3B009C0C96 /* TyExpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TyExpViewController.h; sourceTree = "<group>"; };
+		2108ADE725109E3B009C0C96 /* TyExpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TyExpViewController.m; sourceTree = "<group>"; };
+		2108ADED25109EB3009C0C96 /* TyHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TyHomeViewController.h; sourceTree = "<group>"; };
+		2108ADEE25109EB3009C0C96 /* TyHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TyHomeViewController.m; sourceTree = "<group>"; };
+		2108ADF02510DDAB009C0C96 /* TySharedServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TySharedServices.h; sourceTree = "<group>"; };
+		2108ADF12510DDAB009C0C96 /* TySharedServices.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TySharedServices.m; sourceTree = "<group>"; };
+		2108ADF32511DE93009C0C96 /* aaa.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = aaa.json; sourceTree = "<group>"; };
+		215E115A2518D32500EE8DD0 /* UIColor+TyColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+TyColor.h"; sourceTree = "<group>"; };
+		215E115B2518D32500EE8DD0 /* UIColor+TyColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TyColor.m"; sourceTree = "<group>"; };
+		21CBB86525087A69001F22FD /* TyLiving.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TyLiving.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21CBB86825087A69001F22FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		21CBB86925087A69001F22FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		21CBB87225087A69001F22FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21CBB87425087A6A001F22FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21CBB87725087A6A001F22FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21CBB87925087A6A001F22FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21CBB87A25087A6A001F22FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21CBB886250884BD001F22FD /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		21CBB887250884BD001F22FD /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		21CBB889250885AA001F22FD /* BaseNetWorking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNetWorking.h; sourceTree = "<group>"; };
+		21CBB88A250885AA001F22FD /* BaseNetWorking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNetWorking.m; sourceTree = "<group>"; };
+		21CBB88D25088874001F22FD /* TyLiving.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TyLiving.pch; sourceTree = "<group>"; };
+		21CBB88E250889E3001F22FD /* TyThirdClassHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TyThirdClassHeader.h; sourceTree = "<group>"; };
+		21CBB8912508B438001F22FD /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		21CBB8922508B438001F22FD /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		21CBB8952508DA3A001F22FD /* TyPayServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TyPayServices.h; sourceTree = "<group>"; };
+		21CBB8962508DA3A001F22FD /* TyPayServices.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TyPayServices.m; sourceTree = "<group>"; };
+		21CBB8982508DCEC001F22FD /* APOrderInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APOrderInfo.h; sourceTree = "<group>"; };
+		21CBB8992508DCEC001F22FD /* APOrderInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APOrderInfo.m; sourceTree = "<group>"; };
+		21CBB89C2509CB6A001F22FD /* TyCountDownButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TyCountDownButton.h; sourceTree = "<group>"; };
+		21CBB89D2509CB6A001F22FD /* TyCountDownButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TyCountDownButton.m; sourceTree = "<group>"; };
+		21CBB89F2509F9B0001F22FD /* CountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDown.h; sourceTree = "<group>"; };
+		21CBB8A02509F9B1001F22FD /* CountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDown.m; sourceTree = "<group>"; };
+		21CBB8A2250B5ADB001F22FD /* apple-app-site-association */ = {isa = PBXFileReference; lastKnownFileType = text; path = "apple-app-site-association"; sourceTree = "<group>"; };
+		BDAD381AAADD61DFC577CDE3 /* Pods-TyLiving.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TyLiving.debug.xcconfig"; path = "Target Support Files/Pods-TyLiving/Pods-TyLiving.debug.xcconfig"; sourceTree = "<group>"; };
+		F889D1C2E10D7A078943EC38 /* Pods-TyLiving.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TyLiving.release.xcconfig"; path = "Target Support Files/Pods-TyLiving/Pods-TyLiving.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21CBB86225087A69001F22FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2108ADAC250F104F009C0C96 /* ATAuthSDK.framework in Frameworks */,
+				F3E72E65FDBCA61073D3E5ED /* libPods-TyLiving.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2108ADAA250F1037009C0C96 /* ALi */ = {
+			isa = PBXGroup;
+			children = (
+				2108ADAD250F1142009C0C96 /* ATAuthSDK.bundle */,
+				2108ADAB250F104F009C0C96 /* ATAuthSDK.framework */,
+			);
+			path = ALi;
+			sourceTree = "<group>";
+		};
+		2108ADAF250F126C009C0C96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2108ADBE250F23D0009C0C96 /* TyBottomLineTextField.h */,
+				2108ADBF250F23D1009C0C96 /* TyBottomLineTextField.m */,
+				21CBB8912508B438001F22FD /* LoginViewController.h */,
+				21CBB8922508B438001F22FD /* LoginViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2108ADB0250F1274009C0C96 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2108ADC725105C02009C0C96 /* TyLoginServices.h */,
+				2108ADC825105C02009C0C96 /* TyLoginServices.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2108ADB1250F127D009C0C96 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2108ADB2250F1307009C0C96 /* Experience */ = {
+			isa = PBXGroup;
+			children = (
+				2108ADB5250F1323009C0C96 /* ViewModel */,
+				2108ADB4250F131D009C0C96 /* Model */,
+				2108ADB3250F1317009C0C96 /* View */,
+			);
+			path = Experience;
+			sourceTree = "<group>";
+		};
+		2108ADB3250F1317009C0C96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2108ADE625109E3B009C0C96 /* TyExpViewController.h */,
+				2108ADE725109E3B009C0C96 /* TyExpViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2108ADB4250F131D009C0C96 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2108ADB5250F1323009C0C96 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2108ADB6250F1335009C0C96 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				2108ADB9250F1355009C0C96 /* ViewModel */,
+				2108ADB8250F134E009C0C96 /* Model */,
+				2108ADB7250F1343009C0C96 /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		2108ADB7250F1343009C0C96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2108ADE325109E15009C0C96 /* TyMessageViewController.h */,
+				2108ADE425109E15009C0C96 /* TyMessageViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2108ADB8250F134E009C0C96 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2108ADB9250F1355009C0C96 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2108ADBA250F135D009C0C96 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				2108ADBD250F1378009C0C96 /* ViewModel */,
+				2108ADBC250F1370009C0C96 /* Model */,
+				2108ADBB250F136A009C0C96 /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		2108ADBB250F136A009C0C96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2108ADE025109E01009C0C96 /* TyMineViewController.h */,
+				2108ADE125109E01009C0C96 /* TyMineViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2108ADBC250F1370009C0C96 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2108ADBD250F1378009C0C96 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2108ADC2250F483E009C0C96 /* Until */ = {
+			isa = PBXGroup;
+			children = (
+				2108ADC4250F484F009C0C96 /* TyBaseLoginHelper.h */,
+				2108ADC3250F484F009C0C96 /* TyBaseLoginHelper.m */,
+				2108ADF32511DE93009C0C96 /* aaa.json */,
+			);
+			path = Until;
+			sourceTree = "<group>";
+		};
+		2108ADCA2510682E009C0C96 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2108ADCB2510684E009C0C96 /* NSObject+TyObject.h */,
+				2108ADCC2510684E009C0C96 /* NSObject+TyObject.m */,
+				215E115A2518D32500EE8DD0 /* UIColor+TyColor.h */,
+				215E115B2518D32500EE8DD0 /* UIColor+TyColor.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2108ADD925109C13009C0C96 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				2108ADDE25109C52009C0C96 /* RootControllerModel.h */,
+				2108ADDD25109C52009C0C96 /* RootControllerModel.m */,
+				2108ADDB25109C29009C0C96 /* RootViewController.h */,
+				2108ADDA25109C28009C0C96 /* RootViewController.m */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		2108ADE925109E7C009C0C96 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2108ADEC25109E9E009C0C96 /* ViewModel */,
+				2108ADEB25109E94009C0C96 /* Model */,
+				2108ADEA25109E85009C0C96 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2108ADEA25109E85009C0C96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2108ADED25109EB3009C0C96 /* TyHomeViewController.h */,
+				2108ADEE25109EB3009C0C96 /* TyHomeViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2108ADEB25109E94009C0C96 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2108ADEC25109E9E009C0C96 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		21CBB85C25087A68001F22FD = {
+			isa = PBXGroup;
+			children = (
+				21CBB86725087A69001F22FD /* TyLiving */,
+				21CBB86625087A69001F22FD /* Products */,
+				25598ADE25ED46F068C5F017 /* Pods */,
+				EDCDE8370F6D691235FB4FD9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		21CBB86625087A69001F22FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21CBB86525087A69001F22FD /* TyLiving.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21CBB86725087A69001F22FD /* TyLiving */ = {
+			isa = PBXGroup;
+			children = (
+				2108ADC6250F5D83009C0C96 /* TyLiving.entitlements */,
+				2108ADCA2510682E009C0C96 /* Category */,
+				2108ADC2250F483E009C0C96 /* Until */,
+				2108ADAA250F1037009C0C96 /* ALi */,
+				21CBB89B2509CB39001F22FD /* CustomView */,
+				21CBB8942508D9FE001F22FD /* Services */,
+				21CBB88F2508B411001F22FD /* Class */,
+				21CBB88C25088856001F22FD /* Config */,
+				21CBB885250884A4001F22FD /* Base */,
+				21CBB86825087A69001F22FD /* AppDelegate.h */,
+				21CBB86925087A69001F22FD /* AppDelegate.m */,
+				21CBB87125087A69001F22FD /* Main.storyboard */,
+				21CBB87425087A6A001F22FD /* Assets.xcassets */,
+				21CBB87625087A6A001F22FD /* LaunchScreen.storyboard */,
+				21CBB87925087A6A001F22FD /* Info.plist */,
+				21CBB87A25087A6A001F22FD /* main.m */,
+			);
+			path = TyLiving;
+			sourceTree = "<group>";
+		};
+		21CBB885250884A4001F22FD /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				21CBB889250885AA001F22FD /* BaseNetWorking.h */,
+				21CBB88A250885AA001F22FD /* BaseNetWorking.m */,
+				21CBB886250884BD001F22FD /* BaseViewController.h */,
+				21CBB887250884BD001F22FD /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		21CBB88C25088856001F22FD /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				21CBB88E250889E3001F22FD /* TyThirdClassHeader.h */,
+				21CBB88D25088874001F22FD /* TyLiving.pch */,
+				2108ADC1250F2499009C0C96 /* TyUrl.h */,
+				2108ADCE25106991009C0C96 /* TyGlobalH.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		21CBB88F2508B411001F22FD /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				2108ADE925109E7C009C0C96 /* Home */,
+				2108ADD925109C13009C0C96 /* Root */,
+				2108ADBA250F135D009C0C96 /* Mine */,
+				2108ADB6250F1335009C0C96 /* Message */,
+				2108ADB2250F1307009C0C96 /* Experience */,
+				21CBB8902508B421001F22FD /* Login */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		21CBB8902508B421001F22FD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2108ADB1250F127D009C0C96 /* ViewModel */,
+				2108ADB0250F1274009C0C96 /* Model */,
+				2108ADAF250F126C009C0C96 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		21CBB8942508D9FE001F22FD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				21CBB8982508DCEC001F22FD /* APOrderInfo.h */,
+				21CBB8992508DCEC001F22FD /* APOrderInfo.m */,
+				21CBB8952508DA3A001F22FD /* TyPayServices.h */,
+				21CBB8962508DA3A001F22FD /* TyPayServices.m */,
+				2108ADF02510DDAB009C0C96 /* TySharedServices.h */,
+				2108ADF12510DDAB009C0C96 /* TySharedServices.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		21CBB89B2509CB39001F22FD /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				2108ADD42510971E009C0C96 /* TyRefreshFooter.h */,
+				2108ADD52510971E009C0C96 /* TyRefreshFooter.m */,
+				2108ADD32510971D009C0C96 /* TyRefreshHeader.h */,
+				2108ADD62510971F009C0C96 /* TyRefreshHeader.m */,
+				2108ADCF25109648009C0C96 /* MBProgressHUD_NHExtend.h */,
+				2108ADD025109648009C0C96 /* MBProgressHUD+NHAdd.h */,
+				2108ADD125109649009C0C96 /* MBProgressHUD+NHAdd.m */,
+				21CBB89F2509F9B0001F22FD /* CountDown.h */,
+				21CBB8A02509F9B1001F22FD /* CountDown.m */,
+				21CBB89C2509CB6A001F22FD /* TyCountDownButton.h */,
+				21CBB89D2509CB6A001F22FD /* TyCountDownButton.m */,
+				21CBB8A2250B5ADB001F22FD /* apple-app-site-association */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		25598ADE25ED46F068C5F017 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDAD381AAADD61DFC577CDE3 /* Pods-TyLiving.debug.xcconfig */,
+				F889D1C2E10D7A078943EC38 /* Pods-TyLiving.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EDCDE8370F6D691235FB4FD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1237AE087BED45BC5D2C4CA3 /* libPods-TyLiving.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21CBB86425087A69001F22FD /* TyLiving */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21CBB87E25087A6A001F22FD /* Build configuration list for PBXNativeTarget "TyLiving" */;
+			buildPhases = (
+				BF0B3BEECEB0CC284CFAD367 /* [CP] Check Pods Manifest.lock */,
+				21CBB86125087A69001F22FD /* Sources */,
+				21CBB86225087A69001F22FD /* Frameworks */,
+				21CBB86325087A69001F22FD /* Resources */,
+				07145FC8BAAFAC4211AE3219 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TyLiving;
+			productName = TyLiving;
+			productReference = 21CBB86525087A69001F22FD /* TyLiving.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21CBB85D25087A68001F22FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Ty;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "李世航";
+				TargetAttributes = {
+					21CBB86425087A69001F22FD = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 21CBB86025087A69001F22FD /* Build configuration list for PBXProject "TyLiving" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21CBB85C25087A68001F22FD;
+			productRefGroup = 21CBB86625087A69001F22FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21CBB86425087A69001F22FD /* TyLiving */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21CBB86325087A69001F22FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2108ADAE250F1142009C0C96 /* ATAuthSDK.bundle in Resources */,
+				21CBB8A3250B5ADB001F22FD /* apple-app-site-association in Resources */,
+				21CBB87825087A6A001F22FD /* LaunchScreen.storyboard in Resources */,
+				21CBB87525087A6A001F22FD /* Assets.xcassets in Resources */,
+				21CBB87325087A69001F22FD /* Main.storyboard in Resources */,
+				2108ADF42511DE93009C0C96 /* aaa.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07145FC8BAAFAC4211AE3219 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TyLiving/Pods-TyLiving-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TyLiving/Pods-TyLiving-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TyLiving/Pods-TyLiving-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF0B3BEECEB0CC284CFAD367 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TyLiving-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21CBB86125087A69001F22FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2108ADD82510971F009C0C96 /* TyRefreshHeader.m in Sources */,
+				21CBB88B250885AA001F22FD /* BaseNetWorking.m in Sources */,
+				2108ADC925105C02009C0C96 /* TyLoginServices.m in Sources */,
+				21CBB888250884BD001F22FD /* BaseViewController.m in Sources */,
+				21CBB86A25087A69001F22FD /* AppDelegate.m in Sources */,
+				2108ADE225109E01009C0C96 /* TyMineViewController.m in Sources */,
+				2108ADE825109E3B009C0C96 /* TyExpViewController.m in Sources */,
+				2108ADC5250F4850009C0C96 /* TyBaseLoginHelper.m in Sources */,
+				215E115C2518D32500EE8DD0 /* UIColor+TyColor.m in Sources */,
+				21CBB8A12509F9B1001F22FD /* CountDown.m in Sources */,
+				2108ADDF25109C52009C0C96 /* RootControllerModel.m in Sources */,
+				2108ADD225109649009C0C96 /* MBProgressHUD+NHAdd.m in Sources */,
+				2108ADEF25109EB3009C0C96 /* TyHomeViewController.m in Sources */,
+				2108ADF22510DDAB009C0C96 /* TySharedServices.m in Sources */,
+				2108ADCD2510684E009C0C96 /* NSObject+TyObject.m in Sources */,
+				21CBB8932508B438001F22FD /* LoginViewController.m in Sources */,
+				2108ADC0250F23D1009C0C96 /* TyBottomLineTextField.m in Sources */,
+				21CBB8972508DA3A001F22FD /* TyPayServices.m in Sources */,
+				2108ADE525109E15009C0C96 /* TyMessageViewController.m in Sources */,
+				2108ADD72510971F009C0C96 /* TyRefreshFooter.m in Sources */,
+				2108ADDC25109C29009C0C96 /* RootViewController.m in Sources */,
+				21CBB89E2509CB6A001F22FD /* TyCountDownButton.m in Sources */,
+				21CBB87B25087A6A001F22FD /* main.m in Sources */,
+				21CBB89A2508DCEC001F22FD /* APOrderInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		21CBB87125087A69001F22FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21CBB87225087A69001F22FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21CBB87625087A6A001F22FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21CBB87725087A6A001F22FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21CBB87C25087A6A001F22FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		21CBB87D25087A6A001F22FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21CBB87F25087A6A001F22FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDAD381AAADD61DFC577CDE3 /* Pods-TyLiving.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TyLiving/TyLiving.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JU7A4SE6U5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TyLiving/ALi",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TyLiving/Config/TyLiving.pch";
+				INFOPLIST_FILE = TyLiving/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = www.tokenbty.com.TyLiving;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21CBB88025087A6A001F22FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F889D1C2E10D7A078943EC38 /* Pods-TyLiving.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TyLiving/TyLiving.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JU7A4SE6U5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TyLiving/ALi",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TyLiving/Config/TyLiving.pch";
+				INFOPLIST_FILE = TyLiving/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = www.tokenbty.com.TyLiving;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21CBB86025087A69001F22FD /* Build configuration list for PBXProject "TyLiving" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21CBB87C25087A6A001F22FD /* Debug */,
+				21CBB87D25087A6A001F22FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21CBB87E25087A6A001F22FD /* Build configuration list for PBXNativeTarget "TyLiving" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21CBB87F25087A6A001F22FD /* Debug */,
+				21CBB88025087A6A001F22FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21CBB85D25087A68001F22FD /* Project object */;
+}

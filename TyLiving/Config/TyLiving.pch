@@ -1,0 +1,70 @@
+//
+//  TyLiving.pch
+//  TyLiving
+//
+//  Created by 李世航 on 2020/9/9.
+//  Copyright © 2020 李世航. All rights reserved.
+//
+
+#ifndef TyLiving_pch
+#define TyLiving_pch
+
+#import "TyThirdClassHeader.h"
+#import "TyUrl.h"
+#import "TyGlobalH.h"
+
+// **********************RGBColor*************************
+#define TY_RGB_COLOR(r,g,b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0]
+#define TY_RGBA_COLOR(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+//#define random(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+// 随机色
+#define randomColor TY_RGBA_COLOR(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+// **********************字体大小*************************
+/**
+ *字体大小
+ */
+//#define FONT(s) [UIFont systemFontOfSize:(s*SizeAdapter)]
+#define FONT(s) [UIFont systemFontOfSize:s]
+//粗体
+#define FONTS(s) [UIFont boldSystemFontOfSize:(s*SizeAdapter)]
+// **********************物理尺寸 以及比例 *************************
+// 以iPhone6为基准尺寸
+#define SizeAdapter ScreenWidth/375
+//获取设备的物理高度
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+//获取设备的物理宽度
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+//获取设备的物理宽高
+#define ScreenBounds [UIScreen mainScreen].bounds
+/// 0.5像素
+#define ONE_HALF 1.0/[UIScreen mainScreen].scale
+#define TYiPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define RectStatus  [[UIApplication sharedApplication] statusBarFrame]
+
+#define TYStatusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height
+
+#define TYNavBarHeight 44.0
+
+#define TYTabBarHeight (TYStatusBarHeight > 20 ? 83 : 49)
+
+#define TYBottomHeight (TYStatusBarHeight > 20 ? 34 : 0)
+
+#define TYTopHeight (TYStatusBarHeight + TYNavBarHeight)
+
+#define widthScale (ScreenWidth/414)
+#define heightScale (ScreenHeight/736)
+// **********************弱引用强引用*************************
+#define WeakSelf(weakSelf)      __weak __typeof(&*self)    weakSelf  = self;
+#define StrongSelf(strongSelf)  __strong __typeof(&*self) strongSelf = weakSelf;
+// **********************获取window*************************
+#define Window                  ([UIApplication sharedApplication].keyWindow)
+#define APPLICATION [UIApplication sharedApplication].delegate
+// **********************打印*************************
+#ifdef DEBUG
+#define NSLog(format, ...) fprintf(stderr, "\nfunction:%s line:%d content:%s\n", __FUNCTION__, __LINE__, [[NSString stringWithFormat:format, ##__VA_ARGS__] UTF8String])
+#else
+#define NSLog(format, ...) nil
+#endif
+
+#endif /* TyLiving_pch */

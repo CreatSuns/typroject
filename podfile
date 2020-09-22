@@ -1,0 +1,51 @@
+platform :ios, '9.0'
+inhibit_all_warnings!
+
+target 'TyLiving' do
+
+pod 'AFNetworking'
+pod 'Masonry'
+pod 'SDWebImage', '~>4.4.6'
+pod 'MJRefresh', '3.1.15.7'
+pod 'IQKeyboardManager'
+pod 'MBProgressHUD'
+#pod 'WechatOpenSDK','~>1.8.6'
+pod 'YYModel'
+pod 'YYText'
+pod 'Bugly','~>2.5.0'
+pod 'LSJHCategory', '~> 0.2.1'
+pod 'LSJHAlertController'
+pod 'AlipaySDK-iOS'
+pod 'AMap2DMap'
+pod 'AMapLocation'
+pod 'ZFPlayer', '~> 4.0.1'
+pod 'SSKeychain'
+
+
+## 分享SDK
+pod 'mob_sharesdk'
+pod 'mob_sharesdk/ShareSDKUI'
+# 带支付的微信SDK
+pod 'mob_sharesdk/ShareSDKPlatforms/WeChatFull'
+pod 'mob_sharesdk/ShareSDKPlatforms/Apple'
+# 使用配置文件分享模块（非必需）
+pod 'mob_sharesdk/ShareSDKConfigFile'
+
+# 闭环分享依赖
+pod 'mob_sharesdk/ShareSDKRestoreScene'
+
+# 扩展模块（在调用可以弹出我们UI分享方法的时候是必需的）
+pod 'mob_sharesdk/ShareSDKExtension'
+
+
+#pod 'FMDB','~>2.7.2'
+#pod 'WYAKit','~>0.2.0'
+#pod 'Somo'
+#pod 'Realm'
+#pod 'CYLTableViewPlaceHolder'
+#pod 'WHDebugTool'
+#pod 'MLeaksFinder'
+#pod 'NetworkEye', '~> 1.0.1'
+
+#pod 'WYAKit', :path => '/Users/lishihang/Desktop/GitProject/第三方库开发/WYAKit'
+end

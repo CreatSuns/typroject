@@ -1,0 +1,31 @@
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
+
+//
+//  LLGlobal.pch
+//  LLCategory
+//
+//  Created by 李世航 on 2020/4/21.
+//
+
+#ifndef LLGlobal_pch
+#define LLGlobal_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "LLCategory.h"
+#import <Masonry/Masonry.h>
+#import <SVGKit/SVGKit.h>
+#import <YYImage/YYImage.h>
+
+#endif /* LLGlobal_pch */

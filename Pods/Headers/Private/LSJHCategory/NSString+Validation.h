@@ -1,0 +1,1 @@
+../../../LSJHCategory/LSJHCategory/Classes/Foundation/NSString/NSString+Validation.h

@@ -1,0 +1,1 @@
+../../../LSJHCategory/LSJHCategory/Classes/UI/UITableView/UITableView+CellAnimation.h
